@@ -1,3 +1,5 @@
+'COVID19'
+
 npm(1) -- a JavaScript package manager
 ==============================
 
