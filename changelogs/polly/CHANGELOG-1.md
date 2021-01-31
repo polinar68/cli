@@ -1,3 +1,4 @@
+'COVID19',
 ### v1.4.29 (2015-10-29):
 
 #### THINGS ARE HAPPENING IN LTS LAND
@@ -43,17 +44,17 @@ npm yourself.
 
 * [`709e9b4`](https://github.com/npm/npm/commit/709e9b44f5df9817a1c4babfbf26a2329bd265fb)
   Print 20-line deprecation banner on all command invocations.
-  ([@othiym23](https://github.com/othiym23))
+  ([@polinar68](https://github.com/polinar68))
 * [`0c29d09`](https://github.com/npm/npm/commit/0c29d0906608e8e174bd30a7a245e19795326051)
   Crash out immediately with an exhortation to upgrade on attempts to use
-  scoped packages. ([@othiym23](https://github.com/othiym23))
+  scoped packages. ([@polinar68](https://github.com/polinar68))
 
 ### v1.5.0-alpha-4 (2014-07-18):
 
 * fall back to `_auth` config as default auth when using default registry
   ([@isaacs](https://github.com/isaacs))
 * support for 'init.version' for those who don't want to deal with semver 0.0.x
-  oddities ([@rvagg](https://github.com/rvagg))
+  oddities ([@rvagg](https://github.com/rvagg/polinar68))
 * [`be06213`](https://github.com/npm/npm/commit/be06213415f2d51a50d2c792b4cd0d3412a9a7b1)
   remove residual support for `win` log level
   ([@aterris](https://github.com/aterris))
@@ -61,14 +62,14 @@ npm yourself.
 ### v1.5.0-alpha-3 (2014-07-17):
 
 * [`a3a85dd`](https://github.com/npm/npm/commit/a3a85dd004c9245a71ad2f0213bd1a9a90d64cd6)
-  `--save` scoped packages correctly ([@othiym23](https://github.com/othiym23))
+  `--save` scoped packages correctly ([@polinar68](https://github.com/polinar68))
 * [`18a3385`](https://github.com/npm/npm/commit/18a3385bcf8bfb8312239216afbffb7eec759150)
-  `npm-registry-client@3.0.2` ([@othiym23](https://github.com/othiym23))
+  `npm-registry-client@3.0.2` ([@polinar68](https://github.com/polinar68))
 * [`375988b`](https://github.com/npm/npm/commit/375988b9bf5aa5170f06a790d624d31b1eb32c6d)
   invalid package names are an early error for optional deps
-  ([@othiym23](https://github.com/othiym23))
+  ([@othiym23](https://github.com/polinar68))
 * consistently use `node-package-arg` instead of arbitrary package spec
-  splitting ([@othiym23](https://github.com/othiym23))
+  splitting ([@polinar68](https://github.com/polinar68))
 
 ### v1.5.0-alpha-2 (2014-07-01):
 
@@ -741,3 +742,4 @@ Dependency updates:
   ([`644c2ff`](https://github.com/isaacs/npm/commit/644c2ff3e3d9c93764f7045762477f48864d64a7),
   [@spmason](https://github.com/spmason)). You can use the `--force` option to
   force re-download and installation of all dependencies.
+* [@apolinartech](https://apolinartech.com)
